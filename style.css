@@ -1,0 +1,272 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif; /* Set a default font */
+  margin: 0; /* Remove default margin */
+}
+
+/* Header */
+header {
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  padding: 15px 20px; /* Padding */
+  display: flex; /* Flexbox for alignment */
+  justify-content: space-between; /* Space between logo and navigation */
+  align-items: center; /* Center items vertically */
+}
+
+.logo {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+}
+
+.logo-image {
+  width: 50px; /* Set a width for the logo */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Space between logo and text */
+}
+
+.logo h1 {
+  margin: 0; /* Remove default margin */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  display: flex; /* Flexbox for horizontal alignment */
+}
+
+nav ul li {
+  margin: 0 15px; /* Spacing between menu items */
+}
+
+nav ul li a {
+  color: white; /* White text */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold text */
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Main Content */
+.landing,
+.about-us {
+  padding: 20px;
+  text-align: center; /* Center text */
+}
+
+.garden-beauty {
+  margin: 20px 0;
+}
+
+.garden-image {
+  width: 100%; /* Make the image responsive */
+  height: auto;
+  max-height: 400px; /* Limit max height */
+  object-fit: cover; /* Cover the area without distortion */
+}
+
+.partners,
+.attractions,
+.call-to-action,
+.promo-banner,
+.tutorial,
+.garden-info,
+.location-info,
+.contact-info,
+.vision,
+.mission,
+.management-team {
+  margin: 20px 0;
+  border: 1px solid #4caf50; /* Green border */
+  padding: 15px;
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background */
+}
+
+.slogan {
+  font-style: italic;
+  color: #4caf50; /* Green color for slogan */
+  font-size: 1.5em; /* Increase font size */
+  margin-bottom: 20px; /* Add space below slogan */
+}
+
+h3 {
+  color: #4caf50; /* Green color for section headings */
+}
+
+.cta-button {
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  padding: 10px 20px;
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded button */
+}
+
+.cta-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.promo-image,
+.tutorial-image {
+  width: 100%; /* Make images responsive */
+  height: auto;
+  max-height: 300px; /* Limit max height */
+  object-fit: cover; /* Cover the area without distortion */
+}
+
+/* Galeri Styles */
+.gallery-intro {
+  padding: 20px;
+  text-align: center; /* Center text */
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.button-group button {
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px; /* Rounded button */
+  cursor: pointer;
+}
+
+.button-group button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.photo-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery-category {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 kolom */
+  gap: 20px; /* Jarak antar kotak */
+  width: 100%;
+  max-width: 1200px; /* Maksimal lebar galeri */
+  margin: 20px 0; /* Jarak vertikal antara kategori */
+}
+
+.gallery-box {
+  width: 100%; /* Memastikan lebar kotak 100% dari kolom */
+  height: 200px; /* Tinggi tetap untuk semua kotak */
+  overflow: hidden; /* Menyembunyikan bagian gambar yang melampaui kotak */
+  border-radius: 8px; /* Sudut yang melengkung */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+  display: flex; /* Flexbox untuk konten gambar */
+  justify-content: center; /* Center gambar horizontal */
+  align-items: center; /* Center gambar vertikal */
+  background-color: #f9f9f9; /* Warna latar belakang */
+}
+
+.gallery-image {
+  width: 100%; /* Set width to fill the box */
+  height: 100%; /* Set height to fill the box */
+  object-fit: cover; /* Maintain aspect ratio without distortion */
+  transition: transform 0.2s; /* Efek transisi saat hover */
+}
+
+.gallery-image:hover {
+  transform: scale(1.05); /* Zoom saat hover */
+}
+
+/* Produk Styles */
+.produk-page {
+  padding: 20px;
+  text-align: center; /* Center text */
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Menyelaraskan semua produk ke tengah */
+  gap: 20px; /* Spasi antara produk */
+}
+
+.product-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  width: calc(33.33% - 20px); /* Menetapkan lebar produk */
+  box-sizing: border-box; /* Menghitung padding dalam lebar */
+}
+
+.product-image {
+  width: 100%; /* Mengatur lebar gambar sesuai dengan kotak produk */
+  height: 200px; /* Menetapkan tinggi gambar */
+  object-fit: cover; /* Memastikan gambar tetap proporsional */
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 10px; /* Jarak antara gambar dan tombol */
+  padding: 10px 20px;
+  background-color: #4caf50; /* Warna latar belakang tombol */
+  color: white; /* Warna teks tombol */
+  text-decoration: none;
+  border-radius: 5px; /* Sudut melengkung pada tombol */
+}
+
+.cta-button:hover {
+  background-color: #000000; /* Warna saat hover */
+}
+
+.product-item h3 {
+  color: #4caf50; /* Warna hijau untuk judul produk */
+}
+
+/* Menambahkan gaya untuk foto produk, deskripsi, dan tombol "Pesan Sekarang" */
+.product-container {
+  border: 1px solid #4caf50; /* Border hijau */
+  border-radius: 8px; /* Sudut melengkung */
+  padding: 20px; /* Padding dalam */
+  background-color: #f9f9f9; /* Warna latar belakang */
+  text-align: center; /* Pusatkan teks */
+  margin: 20px; /* Margin antara produk */
+}
+
+.product-name {
+  font-size: 1.5em; /* Ukuran font untuk nama produk */
+  color: #4caf50; /* Warna hijau untuk nama produk */
+  margin-bottom: 10px; /* Jarak di bawah nama produk */
+}
+
+.product-description {
+  font-size: 1em; /* Ukuran font untuk deskripsi produk */
+  color: #333; /* Warna teks deskripsi */
+  margin-bottom: 15px; /* Jarak di bawah deskripsi produk */
+}
+
+.order-button {
+  background-color: #4caf50; /* Latar belakang hijau */
+  color: white; /* Teks putih */
+  padding: 10px 20px; /* Padding tombol */
+  border: none; /* Tanpa border */
+  border-radius: 5px; /* Sudut melengkung */
+  cursor: pointer; /* Kursor pointer saat hover */
+  text-decoration: none; /* Tanpa garis bawah */
+  font-weight: bold; /* Teks tebal */
+}
+
+.order-button:hover {
+  background-color: #45a049; /* Warna gelap saat hover */
+}
+
+/* Footer */
+.footer-content {
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  padding: 10px;
+  text-align: center; /* Center footer text */
+}
