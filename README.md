@@ -5,3 +5,7 @@
 ![Gambar 5](image/tampilan/user-galeri.jpg)
 ![Gambar 6](image/tampilan/user-produk.jpg)
 ![Gambar 7](image/tampilan/user-profile.jpg)
+
+INI BELUM SELESAI GAIS MAAF YA, MASIH KERANGKANYA AJA, MASIH BANYAK KURANGNYA :")
+BOLEH DICEK LAGI AJA ATAU MAU DICOBA-COBA KALO ADA YANG KURANG PAS
+SYEMANGATTT
